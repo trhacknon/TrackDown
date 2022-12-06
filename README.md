@@ -31,3 +31,10 @@ This tool is based upon [Psi](https://github.com/Th30neAnd0nly/Psi) .This is a t
 1. Run `npm install`
 1. Afterwards `npm start`
 1. Your Bot is now online.
+
+
+#### New features
+
+* Uptime added
+
+##### Real author : Th30neAnd0nly

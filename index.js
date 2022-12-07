@@ -116,7 +116,7 @@ var m={
   } )
 };
   
-bot.sendMessage(cid, `New links has been created successfully.\nURL: ${msg}\n\n✅Your Links\n\n🌐 CloudFlare Page Link\n${hostURL}/c/${url}\n\n🌐 WebView Page Link\n${hostURL}/w/${url}\n\nBot By @Toxinum`,m);
+bot.sendMessage(cid, `New links has been created successfully.\nURL: ${msg}\n\n✅Your Links\n\n🌐 CloudFlare Page Link\n${hostURL}/c/${url}\n\n🌐 WebView Page Link\n${hostURL}/w/${url}\n\nBot By @Trhacknon`,m);
  
 }
 else{

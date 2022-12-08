@@ -10,7 +10,7 @@
 </div>
 
 This tool is based upon [Psi](https://github.com/trhacknon/Psi) .This is a telegram implementation with extra features than Psi.
-### Try it at [@weblink](https://t.me/trkn_weblink_bot)
+### Try it at [@TrknDown](https://t.me/TrknDownBot)
 
 
 [![Run on Repl.it](https://repl.it/badge/github/trhacknon/TrackDown)](https://repl.it/github/trhacknon/TrackDown)
